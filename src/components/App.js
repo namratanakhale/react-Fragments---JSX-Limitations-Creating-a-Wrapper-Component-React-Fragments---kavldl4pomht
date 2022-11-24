@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div id="main">
 
-      <input id="input" onChange={onInputChange} />
+      <input id="input" type='number' onChange={onInputChange} />
       <button id="button" onClick={onButtonClick}>Click</button>
        <ul id="list">
       <List listx={list} />

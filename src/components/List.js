@@ -3,10 +3,13 @@ import ListItems from './ListItems';
 
  const List = ({listx}) =>{
   return(
-    // code here
-    
-      <ListItems  />
-    
+    // code here [5,4,6,7]
+      <React.Fragment>
+     {listx.map((e)=>{
+      return <ListItems valuex={e}/>
+     })}
+      
+    </React.Fragment>
     
   )
 }
